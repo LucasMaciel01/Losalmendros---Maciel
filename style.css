@@ -1,0 +1,142 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* Header */
+.logo{
+    width: 90px;
+    height: 50px;
+    margin-top: 2vh;
+}
+
+.navegacion{
+    display: inline-flex;
+    place-content: center space-evenly;
+    margin: 4%; 
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.cabecera{
+    background-color: #ce8df5;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    place-content: center space-evenly;
+}
+
+.cabecera__nav{
+    display: inline;
+    width: 100%;
+}
+/* Fin Header */
+
+/* Carousel */
+/* Fin Carousel */
+
+/* GRID */
+
+/* Section muestra y descripcion del producto */
+.s {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-bottom: 65px;
+    gap: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.foto-1 {
+    width: 100%;
+    height: 90%;
+}
+
+.foto-2 {
+    width: 100%;
+    height: 90%;
+}
+
+.foto-3 {
+    width: 100%;
+    height: 90%;
+}
+
+.foto-4 {
+    width: 100%;
+    height: 90%;
+}
+
+.foto-5 {
+    width: 100%;
+    height: 90%;
+}
+
+.foto-6 {
+    width: 100%;
+    height: 90%;
+}
+/* Fin section muestra y descripcion del producto */
+
+/* Fin GRID */
+
+/* Footer */
+.pie{
+    background-color: #ce8df5;
+    height: 20vh;
+    display: flex;
+    place-content: center space-between;
+    
+}
+
+.pedido {
+    margin-top: 9vh;
+    height: 20px;
+}
+
+.ubicacion {
+    margin-right: 7px;
+    margin-top: 9vh;
+    height: 20px;
+}
+
+#contacto-b {
+    display: grid;
+}
+
+.logo-w {
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.logo-i {
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.logo-f {
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+/* Fin Footer */
+
+
+
+
+
