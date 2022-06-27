@@ -24,6 +24,10 @@
     margin-top: 10px;
 }
 
+.navegacion:hover {
+    background-color: #3c1e4e;
+}
+
 .cabecera{
     background-color: #ce8df5;
     height: 10vh;
