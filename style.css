@@ -66,9 +66,17 @@
     height: 90%;
 }
 
+.foto-1:hover {
+    opacity: 0.5;
+}
+
 .foto-2 {
     width: 100%;
     height: 90%;
+}
+
+.foto-2:hover {
+    opacity: 0.5;
 }
 
 .foto-3 {
@@ -76,9 +84,17 @@
     height: 90%;
 }
 
+.foto-3:hover {
+    opacity: 0.5;
+}
+
 .foto-4 {
     width: 100%;
     height: 90%;
+}
+
+.foto-4:hover {
+    opacity: 0.5;
 }
 
 .foto-5 {
@@ -86,9 +102,17 @@
     height: 90%;
 }
 
+.foto-5:hover {
+    opacity: 0.5;
+}
+
 .foto-6 {
     width: 100%;
     height: 90%;
+}
+
+.foto-6:hover {
+    opacity: 0.5;
 }
 /* Fin section muestra y descripcion del producto */
 
