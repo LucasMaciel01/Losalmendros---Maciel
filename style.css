@@ -10,11 +10,6 @@
 }
 
 /* Header */
-.logo{
-    width: 90px;
-    height: 50px;
-    margin-top: 2vh;
-}
 
 .navegacion:hover {
     background-color: #3c1e4e;
@@ -102,6 +97,14 @@
     opacity: 0.5;
 }
 /* Fin section muestra y descripcion del producto */
+
+/* Formulario */
+
+.formulario {
+    margin: 10px;
+}
+
+/* Fin Formulario */
 
 /* Fin GRID */
 
