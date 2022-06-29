@@ -28,7 +28,7 @@
     background-color: #3c1e4e;
 }
 
-.cabecera{
+/* .cabecera{
     background-color: #ce8df5;
     height: 10vh;
     position: sticky;
@@ -36,6 +36,15 @@
     width: 100%;
     display: flex;
     place-content: center space-evenly;
+} */
+
+.navbar-custom {
+    background-color: #ce8df5; 
+}
+
+.photo {
+    height: 50px;
+    width: 90px;
 }
 
 .cabecera__nav{
