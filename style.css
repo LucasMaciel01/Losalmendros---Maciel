@@ -119,7 +119,7 @@
 /* Footer */
 .pie{
     background-color: #ce8df5;
-    height: 43vh;
+    height: 30vh;
     display: flex;
     place-content: center space-between;
 }
