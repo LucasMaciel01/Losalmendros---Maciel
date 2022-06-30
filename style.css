@@ -119,10 +119,9 @@
 /* Footer */
 .pie{
     background-color: #ce8df5;
-    height: 20vh;
+    height: 43vh;
     display: flex;
     place-content: center space-between;
-    
 }
 
 .pedido {
@@ -160,6 +159,12 @@
     margin-top: 5px;
     margin-left: 7px;
 }
+
+.mapa {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
 /* Fin Footer */
 
 
