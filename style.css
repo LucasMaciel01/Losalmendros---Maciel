@@ -42,61 +42,73 @@
     gap: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    position: relative;
+}
+
+.tit_pro1 {
+    font-size: 2em;
+}
+
+.ho_img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32.7%;
+    height: 44.1%;
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    backdrop-filter: blur(5px);
+}
+
+.ho_img1:hover {
+    opacity: 1;
 }
 
 .foto-1 {
     width: 100%;
     height: 90%;
+    position: relative;
+    display: block;
 }
 
-.foto-1:hover {
-    opacity: 0.5;
-}
+
 
 .foto-2 {
     width: 100%;
     height: 90%;
-}
-
-.foto-2:hover {
-    opacity: 0.5;
+    position: relative;
 }
 
 .foto-3 {
     width: 100%;
     height: 90%;
-}
-
-.foto-3:hover {
-    opacity: 0.5;
+    position: relative;
 }
 
 .foto-4 {
     width: 100%;
     height: 90%;
-}
-
-.foto-4:hover {
-    opacity: 0.5;
+    position: relative;
 }
 
 .foto-5 {
     width: 100%;
     height: 90%;
-}
-
-.foto-5:hover {
-    opacity: 0.5;
+    position: relative;
 }
 
 .foto-6 {
     width: 100%;
     height: 90%;
+    position: relative;
 }
 
-.foto-6:hover {
-    opacity: 0.5;
-}
 /* Fin section muestra y descripcion del producto */
 
 /* Formulario */
