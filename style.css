@@ -124,19 +124,8 @@
     place-content: center space-between;
 }
 
-.pedido {
-    margin-top: 9vh;
-    height: 20px;
-}
-
-.ubicacion {
-    margin-right: 7px;
-    margin-top: 9vh;
-    height: 20px;
-}
-
 #contacto-b {
-    display: grid;
+    display: inline-flex;
 }
 
 .logo-w {
