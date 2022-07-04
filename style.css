@@ -141,22 +141,100 @@
     display: block;
 }
 
+.tit_pro4 {
+    font-size: 2em;
+}
+
+.ho_img4 {
+    position: absolute;
+    top: 51.1%;
+    left: 0;
+    width: 32.7%;
+    height: 44.2%;
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    backdrop-filter: blur(5px);
+}
+
+.ho_img4:hover {
+    opacity: 1;
+}
+
 .foto-4 {
     width: 100%;
     height: 90%;
     position: relative;
+    display: block;
+}
+
+.tit_pro5 {
+    font-size: 2em;
+}
+
+.ho_img5 {
+    position: absolute;
+    top: 51.1%;
+    left: 33.65%;
+    width: 32.7%;
+    height: 44.2%;
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    backdrop-filter: blur(5px);
+}
+
+.ho_img5:hover {
+    opacity: 1;
 }
 
 .foto-5 {
     width: 100%;
     height: 90%;
     position: relative;
+    display: block;
+}
+
+.tit_pro6 {
+    font-size: 2em;
+}
+
+.ho_img6 {
+    position: absolute;
+    top: 51.1%;
+    left: 67.3%;
+    width: 32.75%;
+    height: 44.2%;
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    backdrop-filter: blur(5px);
+}
+
+.ho_img6:hover {
+    opacity: 1;
 }
 
 .foto-6 {
     width: 100%;
     height: 90%;
     position: relative;
+    display: block;
 }
 
 /* Fin section muestra y descripcion del producto */
@@ -183,11 +261,12 @@
     background-color: #ce8df5;
     height: 30vh;
     display: flex;
-    place-content: center space-between;
+    place-content: center;
 }
 
 #contacto-b {
     display: inline-flex;
+    justify-content: center;
 }
 
 .logo-w {
